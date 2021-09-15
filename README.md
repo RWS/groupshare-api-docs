@@ -1,3 +1,0 @@
-# Trados Groupshare Public API Documentation
-
-Coming soon...
