@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/GitHub/groupshare-api-docs",
+  "source_base_path": "C:/Users/pfilkin/Documents/GitHub/groupshare-api-docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -25,24 +25,12 @@
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "4YpgJiAqJSSeIJm/tfJf7sCMFUp+yqVo21dMmxFJhtQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "apiconcepts/overview.md",
       "output": {
         ".html": {
           "relative_path": "apiconcepts/overview.html",
-          "hash": "YK2+/J7QEyPeB4qAJEiEl+eB8kllHLJI1jiGegv72Hc="
+          "hash": "uw24pUKE7pl3Uq1qnQlKsZ5lGQMDfjsTa2ChyYA3vKs="
         }
       },
       "is_incremental": false,
@@ -112,19 +100,17 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

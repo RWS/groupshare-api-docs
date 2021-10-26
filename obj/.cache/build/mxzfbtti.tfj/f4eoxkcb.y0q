@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>GroupShare API Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="GroupShare API Documentation ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <span class="glyphicon glyphicon-search search-icon"></span>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar-default">
+          <div class="container hide-when-search">
+            <div class="breadcrumb-container" id="breadcrumb">
+              <ul class="breadcrumb col-md-10">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="groupshare-api-documentation" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="1" sourceendlinenumber="1">GroupShare API Documentation</h1>
+
+<h2 id="introduction" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="2" sourceendlinenumber="2">Introduction</h2>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="3" sourceendlinenumber="3">This page contains links to the available resources you&#39;ll need to work with the current version of the GroupShare REST API. Through the use of the REST Web API 3rd party developers can extend the GroupShare eco-system. Your applications can integrate with GroupShare using simple HTTP methods - supporting JSON format. All the calls in this specifications are OAuth 2.0 protected resources. This means that callers must provide a so called &quot;bearer token&quot;. This token can be obtained by issuing a POST request, to the authentication/api/1.0/login URL (see the <strong>Login section</strong> of the GroupShare Web API). The received token can be used to get access to the associated resources (all of the exposed API calls).</p>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="5" sourceendlinenumber="5">The API documentation is currently split into two parts:</p>
+<ol sourcefile="apiconcepts/overview.md" sourcestartlinenumber="6" sourceendlinenumber="7">
+<li sourcefile="apiconcepts/overview.md" sourcestartlinenumber="6" sourceendlinenumber="6">The GroupShare Web API</li>
+<li sourcefile="apiconcepts/overview.md" sourcestartlinenumber="7" sourceendlinenumber="7">The TM Service API</li>
+</ol>
+<h2 id="groupshare-web-api" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="9" sourceendlinenumber="9">GroupShare Web API</h2>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="10" sourceendlinenumber="10">This includes the documentation for authentication, user management, project management and terminology management. The documentation can be found in your implementation of GroupShare at <em>[servername.domain]/documentation/api/index</em>. For example, you can find the current version on our development test server here: <a href="https://groupsharedev.sdlproducts.com/documentation/api/index" data-raw-source="https://groupsharedev.sdlproducts.com/documentation/api/index" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="10" sourceendlinenumber="10">https://groupsharedev.sdlproducts.com/documentation/api/index</a></p>
+<h2 id="tm-service-api" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="12" sourceendlinenumber="12">TM Service API</h2>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="13" sourceendlinenumber="13">This includes the documentation for Translation Memory management. The documentation can be found in your implementation of GroupShare at <em>[servername.domain]/docs/ui/index</em>. For example, you can find the current version on our development test server here: <a href="https://groupsharedev.sdlproducts.com/docs/ui/index" data-raw-source="https://groupsharedev.sdlproducts.com/docs/ui/index" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="13" sourceendlinenumber="13">https://groupsharedev.sdlproducts.com/docs/ui/index</a></p>
+<h2 id="groupsharekit" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="15" sourceendlinenumber="15">GroupShareKit</h2>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="16" sourceendlinenumber="16">To provide an easy way to interact with the REST API above we have created the GroupShareKit which is a client library targeting .NET 4.6 and above. It currently supports two versions:</p>
+<ul sourcefile="apiconcepts/overview.md" sourcestartlinenumber="17" sourceendlinenumber="18">
+<li sourcefile="apiconcepts/overview.md" sourcestartlinenumber="17" sourceendlinenumber="17">GroupShareKit</li>
+<li sourcefile="apiconcepts/overview.md" sourcestartlinenumber="18" sourceendlinenumber="18">GroupShareKit-2017</li>
+</ul>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="20" sourceendlinenumber="20">This can be found here: <a href="https://github.com/sdl/groupsharekit.net" data-raw-source="https://github.com/sdl/groupsharekit.net" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="20" sourceendlinenumber="20">https://github.com/sdl/groupsharekit.net</a></p>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="22" sourceendlinenumber="22">We have also created a sample web application using the GroupShareKit. The source code of the application is available here : <a href="https://github.com/sdl/GroupShareKit-Sample" data-raw-source="https://github.com/sdl/GroupShareKit-Sample" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="22" sourceendlinenumber="22">https://github.com/sdl/GroupShareKit-Sample</a></p>
+<h2 id="additional-helpful-resources" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="24" sourceendlinenumber="24">Additional helpful resources</h2>
+<h3 id="video-exploring-the-use-of-swagger-with-the-groupshare-rest-api" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="25" sourceendlinenumber="25">Video exploring the use of Swagger with the GroupShare REST API</h3>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="26" sourceendlinenumber="26">There is also a useful video here on how to work with the REST APIs and the swagger page. It is based on working with the 2017 version of GroupShare, but the principles are the same:</p>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="28" sourceendlinenumber="28"><a href="https://youtu.be/jmaZyarM-8s" title="Explore GroupShare 2017 REST API&#39;s using swagger" data-raw-source="[![Explore GroupShare 2017 REST API&#39;s using swagger](https://img.youtube.com/vi/jmaZyarM-8s/0.jpg)](https://youtu.be/jmaZyarM-8s &quot;Explore GroupShare 2017 REST API&#39;s using swagger&quot;)" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="28" sourceendlinenumber="28"><img src="https://img.youtube.com/vi/jmaZyarM-8s/0.jpg" alt="Explore GroupShare 2017 REST API&#39;s using swagger" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="28" sourceendlinenumber="28"></a></p>
+<h3 id="groupshare-api-endpoints-step-by-step" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="30" sourceendlinenumber="30">GroupShare Api endpoints step by step</h3>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="31" sourceendlinenumber="32">This wiki in the Language Developers forum on the RWS Community explains everything you need to know about working with the GroupShare API endpoints:
+<a href="https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3395.groupshare-api-endpoints-step-by-step" data-raw-source="https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3395.groupshare-api-endpoints-step-by-step" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="32" sourceendlinenumber="32">https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3395.groupshare-api-endpoints-step-by-step</a></p>
+<h3 id="groupshare-webhooks-service" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="34" sourceendlinenumber="34">GroupShare WebHooks Service</h3>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="35" sourceendlinenumber="36">WebHooks provide a publish / subscribe model for wiring together Web APIs and services. You can subscribe to GroupShare events and get notified when that event happens through a callback. This wiki in the Language Developers forum on the RWS Community explains:
+<a href="https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3388.groupshare-webhooks-service" data-raw-source="https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3388.groupshare-webhooks-service" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="36" sourceendlinenumber="36">https://community.sdl.com/developers-more/developers/language-developers/w/wiki/3388.groupshare-webhooks-service</a></p>
+<h3 id="where-to-get-further-help" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="38" sourceendlinenumber="38">Where to get further help</h3>
+<p sourcefile="apiconcepts/overview.md" sourcestartlinenumber="40" sourceendlinenumber="40">If you have any questions on any of the GroupShare APIs the best place to ask is in the community here: <a href="https://community.sdl.com/developers-more/developers/language-developers/f/sdk_qa" data-raw-source="https://community.sdl.com/developers-more/developers/language-developers/f/sdk_qa" sourcefile="apiconcepts/overview.md" sourcestartlinenumber="40" sourceendlinenumber="40">https://community.sdl.com/developers-more/developers/language-developers/f/sdk_qa</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RWS/groupshare-api-docs/blob/main/apiconcepts/overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h4>On this page</h4>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
