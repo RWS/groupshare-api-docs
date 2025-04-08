@@ -1,4 +1,6 @@
+- name: Groupshare
+  href: index.md
 - name: Articles
   href: articles/
-- name: Groupshare APIs
+- name: API
   href: apiconcepts/
