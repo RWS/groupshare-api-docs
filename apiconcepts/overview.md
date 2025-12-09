@@ -13,9 +13,7 @@ This includes the documentation for authentication, user management, project man
 This includes the documentation for Translation Memory management. The documentation can be found in your implementation of GroupShare at *[servername.domain]/docs/ui/index*. For example, you can find the current version on our development test server here: https://groupsharedev.sdlproducts.com/docs/ui/index
 
 ## GroupShareKit ##
-To provide an easy way to interact with the REST API above we have created the GroupShareKit which is a client library targeting .NET 4.6 and above. It currently supports two versions:
-- GroupShareKit
-- GroupShareKit-2017
+To provide an easy way to interact with the REST API above we have created the GroupShareKit which is a client library targeting .NET 4.6 and above.
 
 This can be found here: https://github.com/sdl/groupsharekit.net
 
